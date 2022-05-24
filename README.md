@@ -90,6 +90,7 @@ mailed to the respected faculty .
 The proposed method uses face detection and face recognition that helps to maintain the 
 automated attendance system. 
 Module 1-
+
 ![image](https://user-images.githubusercontent.com/67535635/169953759-492ed478-6064-47dd-b6c0-77ac65a2cd6a.png)
  
                      
