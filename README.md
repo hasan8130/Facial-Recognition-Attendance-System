@@ -101,10 +101,7 @@ Module 1-
 
 ![image](https://user-images.githubusercontent.com/67535635/169953759-492ed478-6064-47dd-b6c0-77ac65a2cd6a.png)
  
-                     
-The LBPH algorithm can recognize the front face as well as side face with approximate accuracy of 
-90% .
-This process is able to detect multiple faces with an accuracy of 91.67%. 
+                   
 
 Module 2-
 
