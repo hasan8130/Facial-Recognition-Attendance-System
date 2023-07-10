@@ -114,6 +114,7 @@ between the histogram of the stored image and histogram of the real time image ,
 by using Euclidean distance. Lower is the distance, higher is the recognition rate. 
 
 Modeule 3-
+
 I tried to explore transfer learning and see the accuracy obtained on using pretrained models 
 by using MediaPipe in dlib library for face detection and the openCV Face_Recognition 
 library  for face recognition respectively .
@@ -121,10 +122,10 @@ It was observed that though the frame rate was considerably less but the accurac
 
 ## FUTURE SCOPE
 
-1-To increase the accuracy further of the model trained in module 2 we can experiment with other classifiers such as KNN ,SVM, apart 
+1-To increase the accuracy of the model trained in module 2 we can experiment with other classifiers such as KNN ,SVM, apart 
 from the distance classifier used in the project.
  
-2- Integrate the software with the hardware components using proper camera modules such as ESP32 , and TinyML for model deployment .
+2- Integrating the software with the hardware components using proper camera modules such as ESP32 , and TinyML for model deployment .
 
 3- For database ,we can use solutions such as Cloud FireStore and other real time databases.
 Additionally, an android application can also be developed .
