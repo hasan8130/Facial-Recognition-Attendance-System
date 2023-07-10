@@ -11,13 +11,16 @@ features. Face recognition systems are helpful in many real-life applications.
 In the proposed method, all the students will initially be enrolled by storing 
 their facial images with a unique ID. At the time of attendance, real-time 
 images will be captured, and the faces in those images will be matched with 
-the faces in the pre-trained dataset. The Haar cascade algorithm is used for face 
+the faces in database.
+
+The Haar cascade algorithm is used for face 
 detection. The local Binary Patterns Histogram (LBPH) algorithm is used for 
 face recognition and training of the stored dataset, which generates the 
 histogram for stored and real-time images. The difference between histograms 
-of real-time images & dataset images is calculated for face recognition. The 
-lower difference gives the best match, displaying that student's name & roll 
-number. Attendance of the student is automatically updated in the excel sheet.
+of real-time images & dataset images is calculated for face recognition. This
+difference gives the best match, displaying that student's name & roll 
+number. 
+Attendance of the student is automatically updated in the excel sheet.
 
 
 ## Aims and Objectives
@@ -35,22 +38,23 @@ detected.
 
 
 ## Scope of the project:
-The main intention of this project is to solve the issues encountered in the old attendance system 
-while reproducing a brand new innovative smart system that can provide convenience to the 
-institution.
+
 For the initial development phase, i have divided the project into three 
-modules. First, we experimented with some facial detection and recognition 
-techniques discussed in research papers to study and find the best approach for 
-our final model. In the second module, i developed the project using the Haar 
-cascade technique for facial detection and LBPH for facial recognition. In the 
-third module, i have used transfer learning to develop a more accurate model. 
+modules. First, I experimented with some facial detection and recognition 
+techniques discussed in different research papers to study and find the best approach for 
+our final model.
+
+In the second module, i developed the project using the Haar 
+cascade technique for facial detection and LBPH for facial recognition.
+
+In the third module, i have used transfer learning to develop a more accurate model. 
+
 The project presents a prototype of the main idea, which is to take real-time 
 attendance using facial recognition. So currently, i have used the laptop's 
 inbuilt camera, which can later be replaced with CCTV cameras and other camera 
-modules. For the GUI, we have used Tkinter to make it easier for the user to go 
-through the model while experimenting with the model. 
-Apart from that, an excel sheet is created which shows the students attendance and is directly 
-mailed to the respected faculty .
+modules. For the GUI, I have used Tkinter to make it easier for the user to test the model while experimenting. 
+Apart from that, an excel sheet is created automatically for the present day (which shows the students attendance) and is directly 
+mailed to the respected faculty using YAGMAIL in python.
 
 ## GUI
 
@@ -87,33 +91,37 @@ mailed to the respected faculty .
 
 
 ## CONCLUSION 
-The proposed method uses face detection and face recognition that helps to maintain the 
-automated attendance system. 
+
 Module 1-
 
 ![image](https://user-images.githubusercontent.com/67535635/169953759-492ed478-6064-47dd-b6c0-77ac65a2cd6a.png)
  
                      
 The LBPH algorithm can recognize the front face as well as side face with approximate accuracy of 
-90% This process is able to detect multiple faces with an accuracy of 91.67%. 
+90% .
+This process is able to detect multiple faces with an accuracy of 91.67%. 
 
-In Module 2 for detection, Paul–Viola Jones algorithm is used and for face recognition Linear Binary 
-Pattern Histogram (LPBH) algorithm is applied. In the result, the unique ID and name of the student 
-is displayed along with the confidence percentage. Confidence percentage represents the distance 
-between the histogram of the stored image and histogram of the real time image and is calculated 
+Module 2-
+
+For detection, Paul–Viola Jones algorithm is used and for face recognition Linear Binary 
+Pattern Histogram (LPBH) algorithm is applied. 
+In the result, the unique ID and name of the student is displayed along with the confidence percentage. 
+Confidence percentage represents the distance 
+between the histogram of the stored image and histogram of the real time image , and is calculated 
 by using Euclidean distance. Lower is the distance, higher is the recognition rate. 
-We tried to explore transfer learning and see the accuracy obtained on using pretrained models in 
-module 3. MediaPipe in dlib library was used for face detection and the openCV Face_Recognition 
-library was used for face recognition .It was observed that though the frame rate was considerably 
-less but the accuracy increased immensly. 
+
+Modeule 3-
+I tried to explore transfer learning and see the accuracy obtained on using pretrained models 
+by using MediaPipe in dlib library for face detection and the openCV Face_Recognition 
+library  for face recognition respectively .
+It was observed that though the frame rate was considerably less but the accuracy increased immensely. 
+
 ## FUTURE SCOPE
-To increase the accuracy further we can experiment with other classifiers such as KNN ,SVM apart 
-from the distance classifier used in the project.Further we can also train our model to adjust as per 
-different lightning conditions and detect side faces as well. 
-The future scope of the project is to integrate the software with the hardware components for 
-example CCTV cameras and better Cam modules through which a monthly list of the defaulter 
-students can be sent to the mentor. Additionally, an application can be developed to help students 
-to maintain a track of their attendance which is capable of recognising the identity of each 
-individuals and eventually record down the data into a database system.It can also be used in offices 
-where a large group of employees sit in a hall and their attendance will be marked automatically by 
-capturing a video 
+
+1-To increase the accuracy further of the model trained in module 2 we can experiment with other classifiers such as KNN ,SVM, apart 
+from the distance classifier used in the project.
+ 
+2- Integrate the software with the hardware components using proper camera modules such as ESP32 , and TinyML for model deployment .
+
+3- For database ,we can use solutions such as Cloud FireStore and other real time databases.
+Additionally, an android application can also be developed .
