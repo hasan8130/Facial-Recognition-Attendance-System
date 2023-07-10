@@ -11,7 +11,7 @@ features. Face recognition systems are helpful in many real-life applications.
 In the proposed method, all the students will initially be enrolled by storing 
 their facial images with a unique ID. At the time of attendance, real-time 
 images will be captured, and the faces in those images will be matched with 
-the faces in database.
+the faces in the database.
 
 The Haar cascade algorithm is used for face 
 detection. The local Binary Patterns Histogram (LBPH) algorithm is used for 
