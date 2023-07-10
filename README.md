@@ -4,10 +4,10 @@
 Managing attendance can be a tedious job when implemented by traditional 
 methods like calling out roll calls or taking a student's signature. A smart and 
 authenticated attendance system needs to be implemented to solve this issue. 
-Generally, biometrics such as face recognition, fingerprint, DNA, retina, iris 
-recognition, hand geometry, etc. are used to execute smart attendance systems. 
+
 The face is a unique identification of humans due to their distinct facial 
 features. Face recognition systems are helpful in many real-life applications. 
+
 In the proposed method, all the students will initially be enrolled by storing 
 their facial images with a unique ID. At the time of attendance, real-time 
 images will be captured, and the faces in those images will be matched with 
