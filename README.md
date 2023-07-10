@@ -24,11 +24,16 @@ Attendance of the student is automatically updated in the excel sheet.
 ## Aims and Objectives
 The objective of this project is to develop a face recognition attendance system. Expected 
 achievements to fulfill the objectives are:
+
 1- To detect the face segment from the video frame.
+
 2- To extract the useful features from the face detected.
+
 3- To classify the features in order to recognize the face
 detected.
+
 4- To record the attendance of the identified student.
+
 ![image](https://user-images.githubusercontent.com/67535635/169953181-d9e3214d-de9d-488a-bad9-9ff5d7a443fc.png)
 
 ![image](https://user-images.githubusercontent.com/67535635/169953323-002e2179-22e8-43f2-91db-188f4e27c3d4.png)
