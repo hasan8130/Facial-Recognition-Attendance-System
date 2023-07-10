@@ -113,7 +113,7 @@ Confidence percentage represents the distance
 between the histogram of the stored image and histogram of the real time image , and is calculated 
 by using Euclidean distance. Lower is the distance, higher is the recognition rate. 
 
-Modeule 3-
+Module 3-
 
 I tried to explore transfer learning and see the accuracy obtained on using pretrained models 
 by using MediaPipe in dlib library for face detection and the openCV Face_Recognition 
