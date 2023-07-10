@@ -17,9 +17,7 @@ The Haar cascade algorithm is used for face
 detection. The local Binary Patterns Histogram (LBPH) algorithm is used for 
 face recognition and training of the stored dataset, which generates the 
 histogram for stored and real-time images. The difference between histograms 
-of real-time images & dataset images is calculated for face recognition. This
-difference gives the best match, displaying that student's name & roll 
-number. 
+of real-time images & dataset images is calculated for face recognition. 
 Attendance of the student is automatically updated in the excel sheet.
 
 
