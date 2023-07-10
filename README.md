@@ -43,8 +43,10 @@ detected.
 ## Scope of the project:
 
 For the initial development phase, i have divided the project into three 
-modules. First, I experimented with some facial detection and recognition 
-techniques discussed in different research papers to study and find the best approach for 
+modules.
+
+In the first module, I experimented with some facial detection techniques and assessed different classification
+algorithms such as PCA, LPB and LDA for facial recognition in order to find the best one for 
 our final model.
 
 In the second module, i developed the project using the Haar 
